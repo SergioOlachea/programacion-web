@@ -2,9 +2,13 @@
 
  Repositorio  para la clase de programacion web 
 
-### Actividades
+### Ejemplos
 
 1. [intruduccion(Clase 1 y clase 2)](/pruebas1/index.html).
+
+### Actividades
+
+1. [Ejercicio #1 - Página web con elementos básicos](Actividad1.html).
 
 
 
