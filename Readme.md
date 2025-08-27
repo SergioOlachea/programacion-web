@@ -8,7 +8,7 @@
 
 ### Actividades
 
-1. [Ejercicio #1 - Página web con elementos básicos](Actividad1.html).
+1. [Ejercicio #1 - Página web con elementos básicos](/Actividades/Actividad1.html).
 
 
 
