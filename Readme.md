@@ -10,6 +10,8 @@
 
 1. [Ejercicio #1 - Página web con elementos básicos](/Actividades/Actividad1.html).
 
+2. [Ejercicio #2 - Listas, Multimedia y tablas](/Actividades/Actividad1.html).
+
 
 
 
