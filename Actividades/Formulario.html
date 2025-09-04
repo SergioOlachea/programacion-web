@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <form action="Actividad1.html" method="get">
+      <fieldset>
+        <legend>Formulario de Contacto</legend>
+        <label for="nombre">Nombre Completo</label>
+        <input
+          id="nombre"
+          type="text"
+          name="nombre"
+          placeholder="ingresa un texto"
+        />
+        <br/>
+       
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Ingresa un correo"
+        />
+        <br/>
+        <label for="edad">Edad</label>
+        <input id="edad " type="number" placeholder="Ingresa tu edad" />
+        <br>
+        <select name="Motivo" id="Motivo">
+            <option>Motivos</option>
+            <optgroup label="Errores">
+                <option value="Cargapagina">Carga De la Pagina</option>
+                <option value="Sistema">Error del Sistema</option>
+            </optgroup>
+            <optGroup label="Correcciones">
+                <option value="InformacionIncorrecta">Informacion Incorrecta</option>
+                <option value="MultimediaInapropiada">Multimedia Inapropiada</option>
+            </optGroup>
+        </select>
+        <br>
+        <label for="descripcion">Descripcion</label>
+        <br>
+        <textarea
+          name="descripcion"
+          id="descripcion"
+          cols="20"
+          rows="5"
+          placeholder="Detalla el motivo"
+        ></textarea>
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+
+</html>
