@@ -1,7 +1,50 @@
-p {
+/* p {
     font-size: 15px;
     text-transform: uppercase;
     box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
     border-radius: 10px;
-    background-color:rgba(131, 131, 248, 0.4);
+    background-color:rgba(0,0,0,0);
+} */
+figure {
+    position: relative;
+    overflow: hidden;
 }
+.titulo{
+    font-size: 50px;
+    color: white;
+    font-style: oblique;
+    text-transform: uppercase;
+    box-shadow:2px,2px,3px rgba(0,0,0,0);
+}
+.cuadro{
+    font-size: 15px;
+    color: white;
+    
+    background-image: url("/Actividades/media/jeep.jpg");
+    width: 100%;
+    height: 800px;
+    aspect-ratio: auto 430 / 282;
+    background-attachment: fixed;
+    
+}
+.fondo{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+#PrimerJeepWrangler{
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    height: 330px;
+    background-image:url(/Actividades/media/jeep\ yj.webp);
+}
+.contenedor{
+    background-color: rgba(0,0,0,0.5);
+}
+hr{
+    border-width: 4px;
+    border-style: double; 
+    letter-spacing: 10px;
+}
+
