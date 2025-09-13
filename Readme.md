@@ -18,4 +18,6 @@
 
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/Actividades/Actividad1.html)
 
+2. [Ejercicio #2 - Tarjeta](/Actividades/Actividad1.html)
+
 
