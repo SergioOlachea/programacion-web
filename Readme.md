@@ -20,4 +20,6 @@
 
 2. [Ejercicio #2 - Tarjeta](/Actividades/Actividad1.html)
 
+3. [Ejercicio #3 - Header sticky](/Yeyo´s_Baja_Fishing/Index.html)
+
 
