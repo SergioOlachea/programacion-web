@@ -22,8 +22,10 @@
 
 3. [Ejercicio #3 - Header sticky](/Yeyo´s_Baja_Fishing/Index.html)
 
-4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclases](/Yeyo´s_Baja_Fishing/Index.html)
+4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclases](Yeyo´s_Baja_Fishing/Index.html)
 
 5. [Ejercicio #5 - Sitio con tarjetas (Flex)](/Yeyo´s_Baja_Fishing/Index.html)
 
 6. [Ejercicio #6 - Variables y funciones](/Yeyo´s_Baja_Fishing/Index.html)
+
+7. [Ejercicio #7 - CSS Grid](/Yeyo´s_Baja_Fishing/Index.html)

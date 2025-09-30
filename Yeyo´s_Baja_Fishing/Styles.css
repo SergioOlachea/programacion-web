@@ -37,7 +37,8 @@ header {
     padding: 0;
     margin: 0;
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .logo-container {
@@ -88,7 +89,8 @@ header {
 
 /*panel superior*/
 .navegation {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 2fr 2fr 2fr;
     top: 0;
     width: 100%;
     padding: var(--spacing-l) var(--spacing-xl);
@@ -102,7 +104,6 @@ header {
     height: 25px;
     border: var(--border-width) solid var(--text-color);
     border-radius: var(--border-radius-s);
-    padding: 6px 4px 3px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,9 +158,10 @@ li:hover {
 }
  
 .busqueda {
-    display: flex;
+    display: grid;
     width: auto;
     height: auto;
+    grid-template-columns: 1fr 1fr ;
 }
 
 .busqueda input {
@@ -173,7 +175,7 @@ li:hover {
 }
 
 .Buscar-icon {
-    height: 25px;
+    height: 27px;
     width: 35px;
     border: var(--border-width) solid var(--secondary-color); 
     border-top-right-radius: 20px;
@@ -210,10 +212,86 @@ li:hover {
     padding: var(--spacing-xs);
 }
 
+.whatsapp-content {
+    width: 40px;
+    height: 25px;
+    
+}
+
+.whatsapp {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+
+.whatsapp a {
+    padding: var(--spacing-xs);
+}
+
+.whatsapp-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.facebook-content {
+    width: auto;
+    height: auto;
+    
+}
+
+.facebook {
+    display: flex;
+    width: auto;
+}
+
+.facebook a {
+    padding: var(--spacing-xs) 0%;
+}
+
+.facebook-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.instagram-content {
+    width: auto;
+    height: auto; 
+}
+
+.instagram {
+    display: flex;
+    width: auto;
+}
+
+.instagram a {
+    padding: var(--spacing-xs) 0%;
+}
+
+.instagram-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/*Carrusel*/
+
+.carousel {
+    width: 100%;
+    height: auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: 270px;
+}
 
 /*Cartas contenidos*/
+
+.content {
+    background-image: url(Media/Imagen\ de\ WhatsApp\ 2025-08-19\ a\ las\ 12.41.38_21042778.jpg);
+}
+
 .cards-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: var(--spacing-l); 
     flex-wrap: wrap; 
@@ -227,7 +305,7 @@ li:hover {
     border-radius: var(--border-radius-l);
     overflow: hidden;
     text-decoration: none;
-    border: 2px solid var(--secondary-color); 
+    border: 4px solid var(--secondary-color); 
     box-shadow: 0 4px 8px var(--shadow-color);
     transition: transform 0.2s ease-in-out;
 }
