@@ -21,6 +21,11 @@
     --border-width: 3px;
 }
 
+body {
+    overflow-x: hidden;
+    background-image: url(Media/Imagen\ de\ WhatsApp\ 2025-08-19\ a\ las\ 12.41.38_21042778.jpg);
+}
+
 @font-face { 
     font-family: 'PT Serif';
     src: url('fonts/PTSerif-Regular.ttf') format('truetype');
@@ -33,7 +38,6 @@ header {
     box-shadow: 3px 3px 25px 0 lightgray;
     position: sticky;
     top: 0;
-    width: 100%;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -96,6 +100,13 @@ header {
     padding: var(--spacing-l) var(--spacing-xl);
     margin: 0;
     align-items: center;
+    background: white;
+}
+
+.menu-container {
+    width: auto;
+    height: auto;
+    padding: var(--spacing-xs);
 }
 
 .menu {
@@ -148,12 +159,13 @@ li:hover {
 .nav_menu {
     max-height: 0;
     overflow: hidden;
+    position: absolute;
     transition: max-height 0.5s ease-in-out;
     background: var(--primary-color);
 }
 
 #despleg_menu:checked ~ .nav_menu {
-    max-height: 500px;
+    max-height: 130px;
     position: absolute;
 }
  
@@ -285,10 +297,6 @@ li:hover {
 
 /*Cartas contenidos*/
 
-.content {
-    background-image: url(Media/Imagen\ de\ WhatsApp\ 2025-08-19\ a\ las\ 12.41.38_21042778.jpg);
-}
-
 .cards-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -332,4 +340,138 @@ li:hover {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .whatsapp-content,
+    .facebook-content,
+    .instagram-content {
+        display: none;
+    }
+
+    .navegation {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    
+    .busqueda {
+        width: 100%;
+    }
+
+    .busqueda input {
+        width:  100%;
+    }
+
+    .carrito-container {
+        width: 25px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        height: auto;
+        width:  auto;
+    }
+
+    .carousel img {
+        height: 220px;
+    }
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-m);
+    }
+
+    .card {
+        width: auto;
+        height: auto;
+    }
+
+    .whatsapp-content,
+    .facebook-content,
+    .instagram-content {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .title {
+        font-size: clamp(18px, 4vw, 24px);
+    }
+
+    .carousel img {
+        height: auto;
+        width: 100%;
+    }
+
+    .busqueda input {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        height: auto;
+        width: auto;
+    }
+
+    .carousel img {
+        height: auto;
+    }
+
+    .user-container {
+        flex-direction: column;
+    }
+
+    nav li {
+        font-size: 16px;
+    }
 }

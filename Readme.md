@@ -29,3 +29,5 @@
 6. [Ejercicio #6 - Variables y funciones](/Yeyo´s_Baja_Fishing/Index.html)
 
 7. [Ejercicio #7 - CSS Grid](/Yeyo´s_Baja_Fishing/Index.html)
+
+8. [Ejercicio #8 - Sitio responsivo](/Yeyo´s_Baja_Fishing/Index.html)
