@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
 :root {
     --primary-color: rgb(111, 202, 241);
     --secondary-color: #561F37;
