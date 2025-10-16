@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JavaScript</title>
+</head>
+<body>
+     <div class="calc-container">
+        <h2>Calculadora Básica</h2>
+        <label for="operation">Elige una operación:</label><br>
+        <select id="operation">
+            <option value="1">Suma (+)</option>
+            <option value="2">Resta (-)</option>
+            <option value="3">Multiplicación (*)</option>
+            <option value="4">División (/)</option>
+        </select>
+
+        <input type="number" id="num1" placeholder="Primer número">
+        <input type="number" id="num2" placeholder="Segundo número">
+        <button onclick="calcular()">Calcular</button>
+        <input type="text" id="resultado" placeholder="Resultado" readonly>
+    </div>
+    <script rel="script" src="js/calculadora.js"></script>
+</body>
+</html>
