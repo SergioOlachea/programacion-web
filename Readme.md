@@ -37,3 +37,5 @@
 ### Java Script
 
 1. [Ejercicio 1 - Calculadora](Calculadora/index.html)
+
+2. [Ejercicio 2 - Manipulación de estilos](cambio_de_Estilo/index.html)
